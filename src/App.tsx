@@ -1,7 +1,7 @@
 import gameData from './gameData.json'
 import Label from './components/Label'
 import './App.css'
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { getUrl } from './lib/links'
 import { getTranslation } from './lib/locales/pt'
 import { ItemRow } from './components/ItemRow'
@@ -27,12 +27,19 @@ const allItems = Object.values(sections).flat()
 console.log('item 0:',allItems[0])
 
 function App() { 
+	const saved = localStorage.getItem('checkedFields')
+	const parsed = saved ? JSON.parse(saved) : []
 
- const [checkedFields, setCheckedFields] = useState(() => new Set())
+	const [checkedFields, setCheckedFields] = useState(new Set(parsed))
+
+	useEffect(() => {
+		localStorage.setItem('checkedFields', JSON.stringify([...checkedFields]))
+		
+	}, [checkedFields])
  
-const progress = useMemo(() => {
-  return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
-}, [checkedFields])
+	const progress = useMemo(() => {
+  	return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
+	}, [checkedFields])
 
   return (
 		<>
