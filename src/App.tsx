@@ -1,6 +1,5 @@
 import gameData from './gameData.json'
 import Label from './components/Label'
-import { renderText } from './utils/tokenMap'
 import './App.css'
 import { useMemo, useState } from 'react'
 import { getUrl } from './lib/links'
