@@ -1,3 +1,5 @@
+import type { JSX } from "react"
+
 export const tokenMap: Record<string, JSX.Element> = {
   geo: <img src="/img/icon-geo.png" className="inline w-4 h-4 mx-1" />,
   essence: <img src="/img/icon-essence.png" className="inline w-4 h-4 mx-1" />,

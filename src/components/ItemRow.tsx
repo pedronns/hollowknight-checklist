@@ -2,7 +2,7 @@ import { getTranslation } from "../lib/locales/pt"
 import { renderText } from "../utils/tokenMap"
 
 type ItemRowProps = {
-  item: typeof allItems[number]
+  item: Item
   checked: boolean
   toggle: () => void
 }
@@ -29,7 +29,7 @@ export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
 				checked ? 'text-white/40 line-through' : ''
 			}`}
 		>
-			{renderText(getTranslation(item.name || item.description))}
+			{renderText(getTranslation(item?.name || item?.description || ''))}
 		</p>
 	</div>
 )
