@@ -4,6 +4,7 @@ import { renderText } from "../utils/tokenMap"
 type ItemRowProps = {
   item: Item
   checked: boolean
+  url?: string
   toggle: () => void
 }
 
@@ -24,12 +25,35 @@ export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
 				className="w-5 h-5 mt-1 flex-shrink-0"
 			/>
 		)}
-		<p
-			className={`text-left text-base sm:text-lg flex-1 break-words ${
-				checked ? 'text-white/40 line-through' : ''
-			}`}
-		>
-			{renderText(getTranslation(item?.name || item?.description || ''))}
-		</p>
+
+		{item.url && (
+			<a
+				className={`text-left  md:text-lg text-xl flex-1 break-words hover:underline ${
+					checked
+						? 'text-white/40 line-through  pointer-events-none '
+						: ''
+				}`}
+				href={item.url}
+				target="_blank"
+			>
+				{renderText(
+					getTranslation(item?.name || item?.description || ''),
+				)}
+			</a>
+		)}
+
+		{!item.url && (
+			<p
+				className={`text-left  md:text-lg text-xl flex-1 break-words ${
+					checked
+						? 'text-white/40 line-through'
+						: ''
+				}`}
+			>
+				{renderText(
+					getTranslation(item?.name || item?.description || ''),
+				)}
+			</p>
+		)}
 	</div>
 )

@@ -3,5 +3,6 @@ type Item = {
 	name?: string
 	description?: string
 	percent: number
-	icon?: 'string'
+	icon?: string
+	url?: string
 }

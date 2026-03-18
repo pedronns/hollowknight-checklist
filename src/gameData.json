@@ -3,163 +3,194 @@
 		"broken_vessel": {
 			"id": 1,
 			"name": "Broken Vessel",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Recept%C3%A1culo_Quebrado"
 		},
 		"brooding_mawlek": {
 			"id": 2,
 			"name": "Brooding Mawlek",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Mawlek_Incubador"
 		},
 		"the_collector": {
 			"id": 3,
 			"name": "The Collector",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Colecionador"
 		},
 		"dung_defender": {
 			"id": 4,
 			"name": "Dung Defender",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Defensor_do_Esterco"
 		},
 		"false_knight": {
 			"id": 5,
 			"name": "False Knight",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Falso_Cavaleiro"
 		},
 		"grimm": {
 			"id": 6,
 			"name": "Grimm",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Grimm"
 		},
 		"gruz_mother": {
 			"id": 7,
 			"name": "Gruz Mother",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/M%C3%A3e_Mosca"
 		},
 		"hive_knight": {
 			"id": 8,
 			"name": "Hive Knight",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Cavaleiro_da_Colmeia"
 		},
 		"hornet_greenpath": {
 			"id": 9,
 			"name": "Hornet (Greenpath)",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Hornet_Protetora"
 		},
 		"hornet_cast_off_shell": {
 			"id": 10,
 			"name": "Hornet (Cast-Off Shell)",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Hornet_Sentinela"
 		},
 		"mantis_lords": {
 			"id": 11,
 			"name": "Mantis Lords",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Lordes_Louva-a-Deus"
 		},
 		"nosk": {
 			"id": 12,
 			"name": "Nosk",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Nosk"
 		},
 		"soul_master": {
 			"id": 13,
 			"name": "Soul Master",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Mestre_das_Almas"
 		},
 		"traitor_lord": {
 			"id": 14,
 			"name": "Traitor Lord",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Lorde_Traidor"
 		},
 		"uumuu": {
 			"id": 15,
 			"name": "Uumuu",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Uumuu"
 		},
 		"watcher_knight": {
 			"id": 16,
 			"name": "Watcher Knight",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Cavaleiro_Sentinela"
 		}
 	},
 	"equipment": {
 		"mothwing_cloak": {
 			"id": 17,
 			"name": "Mothwing Cloak",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Manto_de_Asa_de_Mariposa"
 		},
 		"mantis_claw": {
 			"id": 18,
 			"name": "Mantis Claw",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Garra_de_Louva-a-Deus"
 		},
 		"crystal_heart": {
 			"id": 19,
 			"name": "Crystal Heart",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Cora%C3%A7%C3%A3o_de_Cristal"
 		},
 		"isma_s_tear": {
 			"id": 20,
 			"name": "Isma's Tear",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/L%C3%A1grima_de_Isma"
 		},
 		"king_s_brand": {
 			"id": 21,
 			"name": "King's Brand",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Marca_do_Rei"
 		},
 		"monarch_wings": {
 			"id": 22,
 			"name": "Monarch Wings",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Asas_do_Monarca"
 		},
 		"shade_cloak": {
 			"id": 23,
 			"name": "Shade Cloak",
-			"percent": 2
+			"percent": 2,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Manto_Sombrio"
 		}
 	},
 	"spells": {
 		"vengeful_spirit": {
 			"id": 24,
 			"name": "Vengeful Spirit",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Esp%C3%ADrito_Vingativo"
 		},
 		"shade_soul": {
 			"id": 25,
 			"name": "Shade Soul",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Alma_Sombria"
 		},
 		"desolate_dive": {
 			"id": 26,
 			"name": "Desolate Dive",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Mergulho_Desolador"
 		},
 		"descending_dark": {
 			"id": 27,
 			"name": "Descending Dark",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Escurid%C3%A3o_Descente"
 		},
 		"howling_wraiths": {
 			"id": 28,
 			"name": "Howling Wraiths",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Espectros_Uivantes"
 		},
 		"abyss_shriek": {
 			"id": 29,
 			"name": "Abyss Shriek",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Grito_do_Abismo"
 		}
 	},
 	"dream_nail": {
 		"acquire_the_dream_nail": {
 			"id": 30,
 			"name": "Acquire the Dream Nail",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Ferr%C3%A3o_dos_Sonhos#Como_Adquirir"
 		},
 		"awaken_the_dream_nail": {
 			"id": 31,
 			"name": "Awaken the Dream Nail ([essence] 1800)",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Ferr%C3%A3o_dos_Sonhos#Ferr%C3%A3o_dos_Sonhos_Despertado"
 		},
 		"hear_the_seer_s_final_words": {
 			"id": 32,
@@ -192,28 +223,32 @@
 	"nail_arts": {
 		"great_slash": {
 			"id": 37,
-		"name": "Great Slash",
+			"name": "Great Slash",
 			"source": "Nailmaster Sheo",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Grande_Corte"
 		},
 		"dash_slash": {
 			"id": 38,
 			"name": "Dash Slash",
 			"source": "Nailmaster Oro",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Corte_Impulsionado"
 		},
 		"cyclone_slash": {
 			"id": 39,
 			"name": "Cyclone Slash",
 			"source": "Nailmaster Mato",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Corte_Ciclone"
 		}
 	},
 	"vessel_fragments": [
 		{
 			"id": 40,
 			"description": "Bought from Sly in Dirtmouth for [geo]550",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Sly#Mercadorias"
 		},
 		{
 			"id": 41,
@@ -223,44 +258,53 @@
 		{
 			"id": 42,
 			"description": "Found in Greenpath near the inaccessible Queen's Gardens entrance",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Jardins_da_Rainha"
 		},
 		{
 			"id": 43,
 			"description": "Left of the lift in Forgotten Crossroads",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Encruzilhada_Esquecida"
 		},
 		{
 			"id": 44,
 			"description": "Found above King's Station near a lift",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Encruzilhada_Esquecida"
 		},
 		{
 			"id": 45,
 			"description": "Found in Deepnest above the working tram",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url":"https://hollowknight.fandom.com/pt/wiki/Ninho_Profundo"
 		},
 		{
 			"id": 46,
 			"description": "Found at the end of Stag Nest",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url":"https://hollowknight.fandom.com/pt/wiki/Ninho_dos_Besouros"
 		},
 		{
 			"id": 47,
 			"description": "Given by the Seer for [essence]700",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url":"https://hollowknight.fandom.com/pt/wiki/Vidente"
 		},
 		{
 			"id": 48,
 			"description": "Found in the fountain in Ancient Basin for [geo]3000",
-			"percent": 0.3333333
+			"percent": 0.3333333,
+			"url":"https://hollowknight.fandom.com/pt/wiki/Bacia_Antiga"
 		}
 	],
 	"mask_shards": [
 		{
 			"id": 49,
 			"description": "Bought from Sly in Dirtmouth for [geo]150",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Sly#Mercadorias"
+			
 		},
 		{
 			"id": 50,
@@ -280,62 +324,74 @@
 		{
 			"id": 53,
 			"description": "Defeating Brooding Mawlek far West of the Forgotten Crossroads",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Mawlek_Incubador#Localiza%C3%A7%C3%A3o"
 		},
 		{
 			"id": 54,
 			"description": "Given by Grubfather after rescuing 5 grubs",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pailarva"
 		},
 		{
 			"id": 55,
 			"description": " Forgotten Crossroads South of False Knight (where there are Goams)",
-			"percent": 0.25
+			"percent": 0.25,
+			"url":"https://hollowknight.fandom.com/pt/wiki/Goam"
 		},
 		{
 			"id": 56,
 			"description": "In Queen's Station, near East side",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Esta%C3%A7%C3%A3o_da_Rainha"
 		},
 		{
 			"id": 57,
 			"description": "Found in Bretta's house in Dirtmouth",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Bretta#Localiza%C3%A7%C3%A3o"
 		},
 		{
 			"id": 58,
 			"description": "Found in Stone Sanctuary in Greenpath",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Caminho_Verde#Sub%C3%A1rea:_Santu%C3%A1rio_de_Pedra"
 		},
 		{
 			"id": 59,
 			"description": "Royal Waterways NW section, swim left under main path",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Hidrovia_Real"
 		},
 		{
 			"id": 60,
 			"description": "Found in Deepnest through Fungal Core, near Mantis Lords",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/N%C3%BAcleo_F%C3%BAngico"
 		},
 		{
 			"id": 61,
 			"description": "Reward from Enraged Guardian",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "http://hollowknight.fandom.com/pt/wiki/Guardi%C3%A3o_Enfurecido"
 		},
 		{
 			"id": 62,
 			"description": "Found behind a wall in The Hive",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/A_Colmeia"
 		},
 		{
 			"id": 63,
 			"description": "Given by the Seer for [essence]1500",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Vidente"
 		},
 		{
 			"id": 64,
 			"description": "Given by Grey Mourner in Resting Grounds",
-			"percent": 0.25
+			"percent": 0.25,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pranteadora_Cinzenta"
 		}
 	],
 	"charms": {
@@ -343,342 +399,401 @@
 			"id": 65,
 			"name": "Wayward Compass",
 			"icon": "wayward_compass.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/B%C3%BAssola_Caprichosa"
 		},
 		"gathering_swarm": {
 			"id": 66,
 			"name": "Gathering Swarm",
 			"icon": "gathering_swarm.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Enxame_de_Colecionadores"
 		},
 		"stalwart_shell": {
 			"id": 67,
 			"name": "Stalwart Shell",
 			"icon": "stalwart_shell.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Carapa%C3%A7a_Robusta"
 		},
 		"soul_catcher": {
 			"id": 68,
 			"name": "Soul Catcher",
 			"icon": "soul_catcher.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Apanhador_de_Almas"
 		},
 		"shaman_stone": {
 			"id": 69,
 			"name": "Shaman Stone",
 			"icon": "shaman_stone.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pedra_do_Xam%C3%A3"
 		},
 		"soul_eater": {
 			"id": 70,
 			"name": "Soul Eater",
 			"icon": "soul_eater.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Devorador_de_Almas"
 		},
 		"dashmaster": {
 			"id": 71,
 			"name": "Dashmaster",
 			"icon": "dashmaster.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Mestre_da_Esquiva"
 		},
 		"sprintmaster": {
 			"id": 72,
 			"name": "Sprintmaster",
 			"icon": "sprintmaster.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Mestre_da_Corrida"
 		},
 		"grubsong": {
 			"id": 73,
 			"name": "Grubsong",
 			"icon": "grubsong.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Can%C3%A7%C3%A3o_das_Larvas"
 		},
 		"grubberfly_s_elegy": {
 			"id": 74,
 			"name": "Grubberfly's Elegy",
 			"icon": "grubberfly_s_elegy.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Elegia_da_Larvamosca"
 		},
 		"fragile_heart": {
 			"id": 75,
 			"name": "Fragile Heart",
 			"icon": "fragile_heart.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Cora%C3%A7%C3%A3o_Fr%C3%A1gil"
 		},
 		"fragile_greed": {
 			"id": 76,
 			"name": "Fragile Greed",
 			"icon": "fragile_greed.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Gan%C3%A2ncia_Fr%C3%A1gil"
 		},
 		"fragile_strength": {
 			"id": 77,
 			"name": "Fragile Strength",
 			"icon": "fragile_strength.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/For%C3%A7a_Fr%C3%A1gil"
 		},
 		"spell_twister": {
 			"id": 78,
 			"name": "Spell Twister",
 			"icon": "spell_twister.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Dobrador_de_Magias"
 		},
 		"steady_body": {
 			"id": 79,
 			"name": "Steady Body",
 			"icon": "steady_body.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Corpo_Firme"
 		},
 		"heavy_blow": {
 			"id": 80,
 			"name": "Heavy Blow",
 			"icon": "heavy_blow.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Golpe_Pesado"
 		},
 		"quick_slash": {
 			"id": 81,
 			"name": "Quick Slash",
 			"icon": "quick_slash.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Corte_R%C3%A1pido"
 		},
 		"longnail": {
 			"id": 82,
 			"name": "Longnail",
 			"icon": "longnail.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Ferr%C3%A3o_Longo"
 		},
 		"mark_of_pride": {
 			"id": 83,
 			"name": "Mark of Pride",
 			"icon": "mark_of_pride.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Marca_de_Orgulho"
 		},
 		"fury_of_the_fallen": {
 			"id": 84,
 			"name": "Fury of the Fallen",
 			"icon": "fury_of_the_fallen.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/F%C3%BAria_dos_Ca%C3%ADdos"
 		},
 		"thorns_of_agony": {
 			"id": 85,
 			"name": "Thorns of Agony",
 			"icon": "thorns_of_agony.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Espinhos_da_Agonia"
 		},
 		"baldur_shell": {
 			"id": 86,
 			"name": "Baldur Shell",
 			"icon": "baldur_shell.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Carapa%C3%A7a_de_Baldur"
 		},
 		"flukenest": {
 			"id": 87,
 			"name": "Flukenest",
 			"icon": "flukenest.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Ninho_de_Flukes"
 		},
 		"defender_s_crest": {
 			"id": 88,
 			"name": "Defender's Crest",
 			"icon": "defender_s_crest.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Insignia_do_Defensor"
 		},
 		"glowing_womb": {
 			"id": 89,
 			"name": "Glowing Womb",
 			"icon": "glowing_womb.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/%C3%9Atero_Brilhante"
 		},
 		"quick_focus": {
 			"id": 90,
 			"name": "Quick Focus",
 			"icon": "quick_focus.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Foco_R%C3%A1pido"
 		},
 		"deep_focus": {
 			"id": 91,
 			"name": "Deep Focus",
 			"icon": "deep_focus.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Foco_Profundo"
 		},
 		"lifeblood_heart": {
 			"id": 92,
 			"name": "Lifeblood Heart",
 			"icon": "lifeblood_heart.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Cora%C3%A7%C3%A3o_de_Sangue_Vital"
 		},
 		"lifeblood_core": {
 			"id": 93,
 			"name": "Lifeblood Core",
 			"icon": "lifeblood_core.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/N%C3%BAcleo_de_Sangue_Vital"
 		},
 		"joni_s_blessing": {
 			"id": 94,
 			"name": "Joni's Blessing",
 			"icon": "joni_s_blessing.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/B%C3%AAn%C3%A7%C3%A3o_de_Joni"
 		},
 		"hiveblood": {
 			"id": 95,
 			"name": "Hiveblood",
 			"icon": "hiveblood.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Sangue_da_Colmeia"
 		},
 		"spore_shroom": {
 			"id": 96,
 			"name": "Spore Shroom",
 			"icon": "spore_shroom.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Cogumelo_com_Esporos"
 		},
 		"sharp_shadow": {
 			"id": 97,
 			"name": "Sharp Shadow",
 			"icon": "sharp_shadow.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Sombra_Afiada"
 		},
 		"shape_of_unn": {
 			"id": 98,
 			"name": "Shape of Unn",
 			"icon": "shape_of_unn.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Forma_de_Unn"
 		},
 		"nailmaster_s_glory": {
 			"id": 99,
 			"name": "Nailmaster's Glory",
 			"icon": "nailmaster_s_glory.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Gl%C3%B3ria_do_Mestre_do_Ferr%C3%A3o"
 		},
 		"weaversong": {
 			"id": 100,
 			"name": "Weaversong",
 			"icon": "weaversong.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Can%C3%A7%C3%A3o_das_Tecel%C3%A3s"
 		},
 		"dream_wielder": {
 			"id": 101,
 			"name": "Dream Wielder",
 			"icon": "dream_wielder.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Portador_dos_Sonhos"
 		},
 		"dreamshield": {
 			"id": 102,
 			"name": "Dreamshield",
 			"icon": "dreamshield.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Escudo_dos_Sonhos"
 		},
 		"grimmchild_carefree_melody": {
 			"id": 103,
 			"name": "Grimmchild / Carefree Melody",
 			"icon": "grimmchild_carefree_melody.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Crian%C3%A7a_Grimm"
 		},
 		"kingsoul_void_heart": {
 			"id": 104,
 			"name": "Kingsoul / Void Heart",
 			"icon": "kingsoul_void_heart.png",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Alma_do_Rei"
 		}
 	},
 	"colosseum": {
 		"trial_of_the_warrior": {
 			"id": 105,
 			"name": "Trial of the Warrior",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Prova%C3%A7%C3%A3o_do_Guerreiro"
 		},
 		"trial_of_the_conqueror": {
 			"id": 106,
 			"name": "Trial of the Conqueror",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Prova%C3%A7%C3%A3o_do_Conquistador"
 		},
 		"trial_of_the_fool": {
 			"id": 107,
 			"name": "Trial of the Fool",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Prova%C3%A7%C3%A3o_do_Tolo"
 		}
 	},
 	"dreamers": {
 		"lurien_the_watcher": {
 			"id": 108,
 			"name": "Lurien the Watcher",
-			"percent": 1
+			"percent": 1,
+			"url": "http://hollowknight.fandom.com/pt/wiki/Lurien"
 		},
 		"monomon_the_teacher": {
 			"id": 109,
 			"name": "Monomon the Teacher",
-			"percent": 1
+			"percent": 1,
+			"url": "http://hollowknight.fandom.com/pt/wiki/Monomon"
 		},
 		"herrah_the_beast": {
 			"id": 110,
 			"name": "Herrah the Beast",
-			"percent": 1
+			"percent": 1,
+			"url": "http://hollowknight.fandom.com/pt/wiki/Herrah"
 		},
 		"galien": {
 			"id": 111,
 			"name": "Galien",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Galien"
 		},
 		"marmu": {
 			"id": 112,
 			"name": "Marmu",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Marmu"
 		},
 		"markoth": {
 			"id": 113,
 			"name": "Markoth",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Markoth"
 		},
 		"xero": {
 			"id": 114,
 			"name": "Xero",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Xero"
 		},
 		"no_eyes": {
 			"id": 115,
 			"name": "No Eyes",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Sem_Olhos"
 		},
 		"elder_hu": {
 			"id": 116,
 			"name": "Elder Hu",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Anci%C3%A3o_Hu"
 		},
 		"gorb": {
 			"id": 117,
 			"name": "Gorb",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Gorb"
 		},
 		"nightmare_king_grimm": {
 			"id": 118,
 			"name": "Nightmare King Grimm",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Rei_do_Pesadelo_Grimm"
 		}
 	},
 	"godhome": {
 		"find_godhome": {
 			"id": 119,
 			"name": "Find Godhome",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Buscadora_de_Deuses#Localiza%C3%A7%C3%A3o"
 		},
 		"pantheon_of_the_master": {
 			"id": 120,
 			"name": "Pantheon of the Master",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pante%C3%A3o_do_Mestre"
 		},
 		"pantheon_of_the_artist": {
 			"id": 121,
 			"name": "Pantheon of the Artist",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pante%C3%A3o_do_Artista"
 		},
 		"pantheon_of_the_sage": {
 			"id": 122,
 			"name": "Pantheon of the Sage",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pante%C3%A3o_do_S%C3%A1bio"
 		},
 		"pantheon_of_the_knight": {
 			"id": 123,
 			"name": "Pantheon of the Knight",
-			"percent": 1
+			"percent": 1,
+			"url": "https://hollowknight.fandom.com/pt/wiki/Pante%C3%A3o_do_Cavaleiro"
 		}
 	}
 }

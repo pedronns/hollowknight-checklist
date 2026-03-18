@@ -7,7 +7,7 @@ import { getTranslation } from './lib/locales/pt'
 import { ItemRow } from './components/ItemRow'
 
 
-const sections = Object.fromEntries(
+const sections: Record<string, Item[]> = Object.fromEntries(
 	Object.entries(gameData).map(([sectionName, sectionData]) => {
 		const items = Array.isArray(sectionData)
 			? sectionData
@@ -24,7 +24,6 @@ const sections = Object.fromEntries(
 )
 
 const allItems = Object.values(sections).flat()
-console.log('item 0:',allItems[0])
 
 function App() { 
 	const saved = localStorage.getItem('checkedFields')
@@ -44,14 +43,13 @@ function App() {
   return (
 		<>
 			<div
-				className="min-h-screen text-white items-center py-4 justify-center text-center
+				className="min-h-screen text-white items-center py-4 md:px-0 px-4 justify-center text-center
                 bg-[url('/img/background.png')] 
                 bg-fixed 
                 bg-center 
                 bg-no-repeat"
 			>
-				{' '}
-				<header className="flex mb-2 rounded-xl w-full mx-auto max-w-6xl flex-col py-8 px-4 sm:px-6 md:px-8 bg-black/70">
+				<header className="flex mb-2 rounded-xl w-full mx-auto  max-w-6xl flex-col py-8 px-4 sm:px-6 md:px-8 bg-black/70">
 					<img
 						src="/img/title_large.png"
 						alt="Hollow Knight"
@@ -110,6 +108,7 @@ function App() {
 												checked={checkedFields.has(
 													item.id,
 												)}
+												url={item.url ?? ''}
 												toggle={() => {
 													setCheckedFields((prev) => {
 														const copy = new Set(
