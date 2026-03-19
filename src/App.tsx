@@ -40,8 +40,10 @@ function App() {
 	}, [checkedFields])
  
 	const progress = useMemo(() => {
-  		return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
+		return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
 	}, [checkedFields])
+	
+	const remaining = allItems.length - checkedFields.size
 
   return (
 		<>
@@ -63,9 +65,10 @@ function App() {
 					</h1>
 
 					<h2 className="text-lg sm:text-xl mb-2">
-						{allItems.length - checkedFields.size} itens restantes.
+						{remaining == 0 && 'Nenhum item restante!'}
+						{remaining == 1 && '1 item restante'}
+						{remaining > 1 && `${remaining} itens restantes`}
 					</h2>
-					
 
 					<button
 						className="underline text-white/90 hover:text-white mb-4"
@@ -83,7 +86,7 @@ function App() {
 					</button>
 
 					<h2 className="text-4xl sm:text-6xl font-bold mb-6">
-						{progress.toFixed(2)}% completo
+						{progress.toFixed()}% completo
 					</h2>
 				</header>
 
@@ -96,15 +99,24 @@ function App() {
 									className="break-inside-avoid mb-4"
 								>
 									<div className="mx-auto mb-2 max-w-full">
-										<a href={getUrl(sectionName)} target='_blank'>
+										<a
+											href={getUrl(sectionName)}
+											target="_blank"
+										>
 											<Label
 												title={getTranslation(
-													sectionName
+													sectionName,
 												)}
 											/>
 										</a>
-										{/* <p className='text-xs'>{sectionData.filter(e => checkedFields.has(e.id)).length} / {sectionData.length}</p> */}
-										<ProgressBar current={sectionData.filter(e => checkedFields.has(e.id)).length} total={sectionData.length}/>
+										<ProgressBar
+											current={
+												sectionData.filter((e) =>
+													checkedFields.has(e.id),
+												).length
+											}
+											total={sectionData.length}
+										/>
 									</div>
 									<div className="bg-white/10 py-2 px-4 rounded-2xl">
 										{sectionData.map((item) => (
@@ -136,7 +148,7 @@ function App() {
 						)}
 					</div>
 				</main>
-			<Footer/>
+				<Footer />
 			</div>
 		</>
   )
