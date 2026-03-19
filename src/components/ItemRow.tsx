@@ -1,24 +1,17 @@
 import { getTranslation } from "../lib/locales/pt"
 import { renderText } from "../utils/tokenMap"
+import CustomCheckbox from "./Checkbox"
 
 type ItemRowProps = {
-  item: Item
-  checked: boolean
-  url?: string
-  toggle: () => void
+	item: Item
+	checked: boolean
+	url?: string
+	toggle: () => void
 }
 
 export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
 	<div className="flex gap-2 mb-1">
-		<input
-			type="checkbox"
-			checked={checked}
-			onChange={toggle}
-			className="
-				h-5 w-5 mt-1 rounded border border-white
-				accent-black/90
-			"
-		/>
+			<CustomCheckbox checked={checked} toggle={toggle} />
 		{item.icon && (
 			<img
 				src={`/img/charms/${item.icon}`}
@@ -45,9 +38,7 @@ export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
 		{!item.url && (
 			<p
 				className={`text-left  md:text-lg text-xl flex-1 break-words ${
-					checked
-						? 'text-white/40 line-through'
-						: ''
+					checked ? 'text-white/40 line-through' : ''
 				}`}
 			>
 				{renderText(
