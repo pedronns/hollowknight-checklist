@@ -5,6 +5,7 @@ import { useMemo, useState, useEffect } from 'react'
 import { getUrl } from './lib/links'
 import { getTranslation } from './lib/locales/pt'
 import { ItemRow } from './components/ItemRow'
+import Footer from './components/Footer'
 
 
 const sections: Record<string, Item[]> = Object.fromEntries(
@@ -43,7 +44,7 @@ function App() {
   return (
 		<>
 			<div
-				className="min-h-screen text-white items-center py-4 md:px-0 px-4 justify-center text-center
+				className="min-h-screen text-white items-center pt-4 md:px-0 px-4 justify-center text-center
                 bg-[url('/img/background.png')] 
                 bg-fixed 
                 bg-center 
@@ -130,6 +131,7 @@ function App() {
 						)}
 					</div>
 				</main>
+			<Footer/>
 			</div>
 		</>
   )
