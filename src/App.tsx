@@ -6,6 +6,9 @@ import { getUrl } from './lib/links'
 import { getTranslation } from './lib/locales/pt'
 import { ItemRow } from './components/ItemRow'
 import Footer from './components/Footer'
+import { ProgressBar } from './components/ProgressBar'
+
+
 
 
 const sections: Record<string, Item[]> = Object.fromEntries(
@@ -34,11 +37,10 @@ function App() {
 
 	useEffect(() => {
 		localStorage.setItem('checkedFields', JSON.stringify([...checkedFields]))
-		
 	}, [checkedFields])
  
 	const progress = useMemo(() => {
-  	return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
+  		return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
 	}, [checkedFields])
 
   return (
@@ -63,6 +65,7 @@ function App() {
 					<h2 className="text-lg sm:text-xl mb-2">
 						{allItems.length - checkedFields.size} itens restantes.
 					</h2>
+					
 
 					<button
 						className="underline text-white/90 hover:text-white mb-4"
@@ -93,13 +96,15 @@ function App() {
 									className="break-inside-avoid mb-4"
 								>
 									<div className="mx-auto mb-2 max-w-full">
-										<a href={getUrl(sectionName)}>
+										<a href={getUrl(sectionName)} target='_blank'>
 											<Label
 												title={getTranslation(
-													sectionName,
+													sectionName
 												)}
 											/>
 										</a>
+										{/* <p className='text-xs'>{sectionData.filter(e => checkedFields.has(e.id)).length} / {sectionData.length}</p> */}
+										<ProgressBar current={sectionData.filter(e => checkedFields.has(e.id)).length} total={sectionData.length}/>
 									</div>
 									<div className="bg-white/10 py-2 px-4 rounded-2xl">
 										{sectionData.map((item) => (
