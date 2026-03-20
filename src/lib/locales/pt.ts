@@ -8,6 +8,8 @@ const translations: Record<string, string> = {
 	uncheck_all: 'desmarcar tudo',
 	done: 'feito',
 
+	'112%_checklist': 'Checklist 112%',
+
 	// section titles
 	bosses: 'Chefes',
 	equipment: 'Equipamentos',

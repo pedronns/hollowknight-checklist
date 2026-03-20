@@ -54,6 +54,11 @@ function App() {
 	const progress = useMemo(() => {
 		return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
 	}, [checkedFields])
+
+	useEffect(() => {
+		const percent = progress.toFixed()
+		document.title = `Hollowtrack - ${percent}%`
+	}, [progress])
 	
 	const remaining = allItems.length - checkedFields.size
 
@@ -75,8 +80,8 @@ function App() {
 					<button onClick={() => toggleLanguage()} className='absolute right-5 top-4 text-xs'>
 						{language?.toUpperCase()}
 					</button>
-					<h1 className="text-3xl sm:text-4xl font-bold mb-2">
-						Checklist 112%
+					<h1 className="text-3xl sm:text-4xl font-bold mb-2 capitalize">
+						{t('112%_checklist')}
 					</h1>
 
 					<h2 className="text-lg sm:text-xl mb-2 capitalize">
