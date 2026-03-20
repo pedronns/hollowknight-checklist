@@ -101,7 +101,7 @@ function App() {
 					</button>
 
 					<h2 className="text-4xl sm:text-6xl font-bold mb-6">
-						{progress.toFixed()}% {t('feito')}
+						{progress.toFixed()}% {t('done')}
 					</h2>
 				</header>
 
