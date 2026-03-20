@@ -1,17 +1,17 @@
-import { getTranslation } from "../lib/locales/pt"
 import { renderText } from "../utils/tokenMap"
 import CustomCheckbox from "./Checkbox"
 
 type ItemRowProps = {
 	item: Item
+	text: string
 	checked: boolean
 	url?: string
 	toggle: () => void
 }
 
-export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
+export const ItemRow = ({ item, text, checked, toggle }: ItemRowProps) => (
 	<div className="flex gap-2 mb-1">
-			<CustomCheckbox checked={checked} toggle={toggle} />
+		<CustomCheckbox checked={checked} toggle={toggle} />
 		{item.icon && (
 			<img
 				src={`/img/charms/${item.icon}`}
@@ -29,9 +29,7 @@ export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
 				href={item.url}
 				target="_blank"
 			>
-				{renderText(
-					getTranslation(item?.name || item?.description || ''),
-				)}
+				{renderText(text)}
 			</a>
 		)}
 
@@ -41,9 +39,7 @@ export const ItemRow = ({ item, checked, toggle }: ItemRowProps) => (
 					checked ? 'text-white/40 line-through' : ''
 				}`}
 			>
-				{renderText(
-					getTranslation(item?.name || item?.description || ''),
-				)}
+				{renderText(text)}
 			</p>
 		)}
 	</div>

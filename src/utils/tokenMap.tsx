@@ -3,7 +3,7 @@ import type { JSX } from "react"
 export const tokenMap: Record<string, JSX.Element> = {
   geo: <img src="/img/icon-geo.png" className="inline w-4 h-4 mx-1" />,
   essence: <img src="/img/icon-essence.png" className="inline w-4 h-4 mx-1" />,
-  pale_ore: <img src="/img/icon-pale-ore.png" className="inline w-4 h-4 mx-1" />,
+  pale: <img src="/img/icon-pale-ore.png" className="inline w-4 h-4 mx-1" />,
 }
 
 export const renderText = (text: string) => {

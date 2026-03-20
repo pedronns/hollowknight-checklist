@@ -206,17 +206,17 @@
 		},
 		"channelled_nail": {
 			"id": 34,
-			"name": "Channelled Nail ([geo] 800 and [pale_ore] 1)",
+			"name": "Channelled Nail ([geo] 800 and [pale] 1)",
 			"percent": 1
 		},
 		"coiled_nail": {
 			"id": 35,
-			"name": "Coiled Nail ([geo] 2000 and [pale_ore] 2)",
+			"name": "Coiled Nail ([geo] 2000 and [pale] 2)",
 			"percent": 1
 		},
 		"pure_nail": {
 			"id": 36,
-			"name": "Pure Nail ([geo] 4000 and [pale_ore] 3)",
+			"name": "Pure Nail ([geo] 4000 and [pale] 3)",
 			"percent": 1
 		}
 	},

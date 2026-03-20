@@ -3,13 +3,12 @@ import Label from './components/Label'
 import './App.css'
 import { useMemo, useState, useEffect } from 'react'
 import { getUrl } from './lib/links'
-import { getTranslation } from './lib/locales/pt'
+import { createT } from './lib/locales/pt'
 import { ItemRow } from './components/ItemRow'
 import Footer from './components/Footer'
 import { ProgressBar } from './components/ProgressBar'
 
-
-
+type Lang = 'pt' | 'en'
 
 const sections: Record<string, Item[]> = Object.fromEntries(
 	Object.entries(gameData).map(([sectionName, sectionData]) => {
@@ -32,12 +31,25 @@ const allItems = Object.values(sections).flat()
 function App() { 
 	const saved = localStorage.getItem('checkedFields')
 	const parsed = saved ? JSON.parse(saved) : []
-
 	const [checkedFields, setCheckedFields] = useState(new Set(parsed))
+	
+	const savedLanguage = localStorage.getItem('language')
+	const [language, setLanguage] = useState<Lang>(
+		savedLanguage === 'en' ? 'en' : 'pt',
+	)
+	const t = createT(language)
+
+	const toggleLanguage = () => {
+		setLanguage((prev) => (prev === 'pt' ? 'en' : 'pt'))
+	}
 
 	useEffect(() => {
 		localStorage.setItem('checkedFields', JSON.stringify([...checkedFields]))
 	}, [checkedFields])
+
+	useEffect(() => {
+		localStorage.setItem('language', language)
+	}, [language])
  
 	const progress = useMemo(() => {
 		return allItems.reduce((acc, cur) => (checkedFields.has(cur.id) ? acc + cur.percent : acc), 0)
@@ -54,24 +66,27 @@ function App() {
                 bg-center 
                 bg-no-repeat"
 			>
-				<header className="flex mb-2 rounded-xl w-full mx-auto  max-w-6xl flex-col py-8 px-4 sm:px-6 md:px-8 bg-black/70">
+				<header className="flex mb-2 rounded-xl w-full mx-auto  max-w-6xl flex-col py-8 px-4 sm:px-6 md:px-8 bg-black/70 relative">
 					<img
 						src="/img/title_large.png"
 						alt="Hollow Knight"
 						className="mx-auto mb-2 w-full max-w-xs sm:max-w-sm md:max-w-md h-auto"
 					/>
+					<button onClick={() => toggleLanguage()} className='absolute right-5 top-4 text-xs'>
+						{language?.toUpperCase()}
+					</button>
 					<h1 className="text-3xl sm:text-4xl font-bold mb-2">
 						Checklist 112%
 					</h1>
 
-					<h2 className="text-lg sm:text-xl mb-2">
-						{remaining == 0 && 'Nenhum item restante!'}
-						{remaining == 1 && '1 item restante'}
-						{remaining > 1 && `${remaining} itens restantes`}
+					<h2 className="text-lg sm:text-xl mb-2 capitalize">
+						{remaining == 0 && t('no_items_left')}
+						{remaining == 1 && `${remaining} ${t('item_left')}`}
+						{remaining >= 2 && `${remaining} ${t('items_left')}`}
 					</h2>
 
 					<button
-						className="underline text-white/90 hover:text-white mb-4"
+						className="underline text-white/90 hover:text-white mb-4 capitalize"
 						onClick={() => {
 							setCheckedFields(
 								checkedFields.size === allItems.length
@@ -81,12 +96,12 @@ function App() {
 						}}
 					>
 						{checkedFields.size === allItems.length
-							? 'Desmarcar tudo'
-							: 'Marcar tudo'}
+							? t('uncheck_all')
+							: t('check_all')}
 					</button>
 
 					<h2 className="text-4xl sm:text-6xl font-bold mb-6">
-						{progress.toFixed()}% completo
+						{progress.toFixed()}% {t('feito')}
 					</h2>
 				</header>
 
@@ -103,11 +118,7 @@ function App() {
 											href={getUrl(sectionName)}
 											target="_blank"
 										>
-											<Label
-												title={getTranslation(
-													sectionName,
-												)}
-											/>
+											<Label title={t(sectionName)} />
 										</a>
 										<ProgressBar
 											current={
@@ -123,6 +134,11 @@ function App() {
 											<ItemRow
 												key={item.id}
 												item={item}
+												text={t(
+													item.name ??
+														item.description ??
+														'',
+												)}
 												checked={checkedFields.has(
 													item.id,
 												)}
@@ -148,7 +164,7 @@ function App() {
 						)}
 					</div>
 				</main>
-				<Footer />
+				<Footer lang={language} />
 			</div>
 		</>
   )
