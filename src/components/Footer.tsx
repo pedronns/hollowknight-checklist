@@ -38,14 +38,14 @@ const Footer = ({lang}: Props) => {
 						>
 							Team Cherry
 						</a>{' '}
-						pela criação dos sprites; a{' '}
+						pela criação das artes; à{' '}
 						<a
 							className="underline"
-							href="https://www.reddit.com/user/sumwann/"
+							href="https://hollowknight.fandom.com/pt/wiki/Hollow_Knight_Wiki"
 						>
-							sumwann
+							Hollow Knight Wiki
 						</a>{' '}
-						pela extração dos arquivos; e a{' '}
+						pela disponibilização; e a{' '}
 						<a
 							className="underline"
 							href="https://www.reddit.com/user/nebulatron/"
@@ -59,7 +59,7 @@ const Footer = ({lang}: Props) => {
 						Conteúdo complementado com informações da{' '}
 						<a
 							className="underline"
-							href="https://hollowknight.fandom.com/wiki"
+							href="https://hollowknight.fandom.com/pt/wiki/Hollow_Knight_Wiki"
 						>
 							Wiki
 						</a>
@@ -130,21 +130,21 @@ const Footer = ({lang}: Props) => {
 						>
 							Team Cherry
 						</a>{' '}
-						for creating the sprites; to{' '}
+						for creating the sprites; to the {' '}
 						<a
 							className="underline"
-							href="https://www.reddit.com/user/sumwann/"
+							href="https://hollowknight.fandom.com/pt/wiki/Hollow_Knight_Wiki"
 						>
-							sumwann
+							Hollow Knigth Wiki
 						</a>{' '}
-						for extracting the files; and to{' '}
+						for providing the arts; and to{' '}
 						<a
 							className="underline"
 							href="https://www.reddit.com/user/nebulatron/"
 						>
 							nebulatron
 						</a>{' '}
-						for providing the data.
+						for the data.
 					</p>
 
 					<p>
